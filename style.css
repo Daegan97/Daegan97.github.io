@@ -285,3 +285,10 @@ thead th { white-space: normal; vertical-align: bottom; }
 .more .entry p.kicker { font-size: 0.75rem; }
 .more .entry p.meta { font-size: 0.82rem; }
 .notfound { padding-bottom: 0; }
+
+/* ---------- testimonial */
+.quote { max-width: var(--measure); margin: 2.5rem 0; padding: 1.4rem 1.6rem; background: var(--paper-2); border-left: 3px solid var(--accent); border-radius: 0 3px 3px 0; }
+.quote blockquote { margin: 0; font-size: 1.25rem; line-height: 1.5; font-style: italic; color: var(--ink); }
+.quote blockquote::before { content: "“"; } .quote blockquote::after { content: "”"; }
+.quote figcaption { margin-top: 0.8rem; font-family: var(--sans); font-size: 0.85rem; color: var(--ink-3); }
+.quote figcaption strong { color: var(--ink-2); font-weight: 600; }
