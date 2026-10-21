@@ -6,13 +6,13 @@
 <title>Daegan Layman · Writer and researcher</title>
 <meta name="description" content="Daegan Layman: writer and researcher in Oklahoma City. Essays, research and creative strategy.">
 <meta name="author" content="Daegan Layman">
-<link rel="canonical" href="https://daegan97.github.io/daeganlayman/">
+<link rel="canonical" href="https://daegan97.github.io/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Daegan Layman">
 <meta property="og:title" content="Daegan Layman · Writer and researcher">
 <meta property="og:description" content="Daegan Layman: writer and researcher in Oklahoma City. Essays, research and creative strategy.">
-<meta property="og:url" content="https://daegan97.github.io/daeganlayman/">
-<meta property="og:image" content="https://daegan97.github.io/daeganlayman/assets/share-card.png">
+<meta property="og:url" content="https://daegan97.github.io/">
+<meta property="og:image" content="https://daegan97.github.io/assets/share-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Daegan Layman, writer and researcher">
@@ -53,6 +53,13 @@
   <a class="door" href="research/index.html"><span class="kicker">02</span><span class="door-title">Research</span><span class="door-desc">Law, policy, criminal justice and fraud, plus statistical analysis.</span></a>
   <a class="door" href="strategy/index.html"><span class="kicker">03</span><span class="door-title">Strategy</span><span class="door-desc">Paid-social creative strategy, briefs and case studies.</span></a>
 </nav>
+<script>
+(function () {
+  var ids = ['addr', 'awareness', 'briefs', 'cases', 'contact', 'copy', 'problem', 'process', 'reel', 'systems', 'theory', 'top', 'work', 'writing'];
+  var h = location.hash.slice(1);
+  if (h && ids.indexOf(h) >= 0) { location.replace('/creative/#' + h); }
+})();
+</script>
 </main>
 <footer class="colophon">
   <p><a href="index.html">Daegan Layman</a> · Writer and researcher · Oklahoma City / remote</p>

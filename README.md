@@ -1,19 +1,22 @@
 # Daegan Layman: writing, research and resume
 
-A static site (plain HTML and CSS) published with GitHub Pages at
-**https://daegan97.github.io/daeganlayman/**. It's separate from the creative-strategy site at
-https://daegan97.github.io/.
+A static site (plain HTML and CSS) published with GitHub Pages at **https://daegan97.github.io/**
+(this repository, `Daegan97.github.io`). The creative-strategy site is a separate repository,
+`Daegan97/creative`, served at https://daegan97.github.io/creative/.
+
+Until 2026-10-21 this site lived at `/daeganlayman/` and the creative-strategy site at the root.
+`404.html` and the home page forward those old links to their new addresses.
 
 | Page | Address |
 |---|---|
-| Home | https://daegan97.github.io/daeganlayman/ |
-| Writing | https://daegan97.github.io/daeganlayman/writing/ |
-| Research | https://daegan97.github.io/daeganlayman/research/ |
-| Strategy | https://daegan97.github.io/daeganlayman/strategy/ |
-| About & resume | https://daegan97.github.io/daeganlayman/about/ |
-| Resume PDF | https://daegan97.github.io/daeganlayman/assets/Daegan_Layman_Resume.pdf |
+| Home | https://daegan97.github.io/ |
+| Writing | https://daegan97.github.io/writing/ |
+| Research | https://daegan97.github.io/research/ |
+| Strategy | https://daegan97.github.io/strategy/ |
+| About & resume | https://daegan97.github.io/about/ |
+| Resume PDF | https://daegan97.github.io/assets/Daegan_Layman_Resume.pdf |
 
-Each piece has its own address too, e.g. `/daeganlayman/writing/scalding-coffee/`.
+Each piece has its own address too, e.g. `/writing/scalding-coffee/`.
 
 ## Viewing it locally
 
